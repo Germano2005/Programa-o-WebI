@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1> Fundamentos do PHP - listaL2 - exercício 7 </h1>
+    <form method="post" action="../php/script.php">
+     <fieldset>
+      <legend> Supermercados AAA - processamento de vendas </legend>
+      
+      <label class="alinha"> Forneça o valor inical da compra: </label>
+      <input type="number" name="valor-compra" autofocus step="0.01" min="0"> <br>
+   
+      <label> O cliente pagou a compra com cartão? </label> <br>
+      <input type="radio" name="forma-pagamento" value="sim"> <label> Sim </label> <br>
+      <input type="radio" name="forma-pagamento" value="não"> <label> Não </label> <br> <br>
+   
+      <label> O cliente solicitou entrega a domicílio? </label> <br>
+      <input type="radio" name="forma-entrega" value="sim"> <label> Sim </label> <br>
+      <input type="radio" name="forma-entrega" value="não"> <label> Não </label> <br>
+   
+      <button> Processar compra do cliente </button>
+     </fieldset>
+    </form> 
+</body>
+</html>

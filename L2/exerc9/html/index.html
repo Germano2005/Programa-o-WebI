@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>  
+    <h1>Sistema de Loja</h1>
+
+    <form action="../php/script.php" method="post">
+        <fieldset>
+            <legend>Formulário</legend>
+
+            <label>Forneça aqui o valor da compra do usuário</label>
+            <input type="number" name="valor-compra" step="0.1" min="0">
+            <br>
+
+            <label >Indique a forma de pagamento utilizada pelo cliente</label>
+            <br>
+            <input type="radio" name="forma-pagamento" value="vista">
+            <label>pagamento à vista</label>
+            <br>
+            <input type="radio" name="forma-pagamento" value="prazo">
+            <label>Pagamento à prazo</label>
+            <br> <br>
+
+            <input type="checkbox" name="visa" > <label>O pagamento com cartão VISA</label>
+            <br> <br>
+
+            <button>Realizar o processamento da compra</button>
+        </fieldset> 
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
