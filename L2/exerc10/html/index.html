@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<h1>Sistema de Farmácia</h1>
+
+<form action="../php/script.php" method="post">
+    <fieldset>
+        <legend>Farmácia</legend>
+
+        <label>Forneça aqui o valor da compra do usuário</label>
+        <input type="number" name="valor-compra" step="0.1" min="0">
+        <br> <br>
+
+        <label >Indique a faixa etária do cliente</label>
+        <br>
+        <input type="radio" name="faixa-etaria" value="Menos de 55 anos">
+        <label class="alinha">Menos de 55 anos</label>
+        <br>
+        <input type="radio" name="faixa-etaria" value="Entre 55 e 70  anos">0
+        <label class="alinha">Entre 55 e 70  anos</label>
+        <br>
+        <input type="radio" name="faixa-etaria" value="Mais de 70 anos">
+        <label class="alinha">Mais de 70 anos</label>
+        <br> <br>
+
+        <label>Marque esta opção se o cliente pagou a compra com cartão de fidelidade da rede de Farmácia AAA.</label>
+        <br> <input type="checkbox" name="pagamento-cartao" >
+        <br> <br>
+
+        <button>Realizar o processamento da compra</button>
+    </fieldset>
+
+
+
+
+</form>
+
+
+
+</body>
+</html>

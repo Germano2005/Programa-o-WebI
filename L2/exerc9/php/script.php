@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exerc 9 PHP</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <h1>Página de resolução do pagamento</h1>    
@@ -38,7 +39,7 @@
 
     echo "<p> Valor final da compra: <span> R$ $valorFinalFormat </span> <br>";
 
-    if($sorteio == 1){
+    if($sorteio == "Sim"){
         echo "Participação sorteio: sim";
     }
     else{
