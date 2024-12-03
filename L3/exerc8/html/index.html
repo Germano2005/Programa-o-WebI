@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Web com PHP - uso de vetores</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<h1>Fundamentos do PHP - listal3 - exercício 8</h1>
+
+<form method="post" action="../php/script.php">
+    <fieldset>
+        <legend>Farmacia online AAA - Venda de medicamentos  - Carrinho de compras</legend>
+        <br>
+
+       <label>Escolha os seguintes produtos abaixo: </label> <br>
+        <hr>
+        <input type="checkbox" name="remedio[]" value="Dipirona" >
+        <label>Dipirona - R$10,00</label>
+        <br> <br>
+        <input type="checkbox" name="remedio[]" value="Paracetamol">
+        <label>Paracetamol - R$15,12</label>
+        <br> <br>
+        <input type="checkbox" name="remedio[]" value="Rivotril">
+        <label>Rivotril - R$80,15</label>
+        <br> <br>
+        <hr>
+        <input type="checkbox" name="faixa-etaria">
+        <label>Marque está opção se o cliente possui 60 ou mais</label>
+        <br> <br>
+        <hr>
+        <button type="submit">Comprar medicamentos</button>
+
+    </fieldset>
+
+
+
+</form>
+
+</body>
+</html>
