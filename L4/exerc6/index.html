@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Programação web com PHP - uso de matrizes </title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <h1> Matrizes na linguagem PHP - listaL4 - exercício 6 </h1>
+ <form method="post" action="script.php">
+  <fieldset>
+   <legend>Módulo de cadastro dos medicamentos na matriz </legend>
+   
+   <label class="alinha"> Forneça o nome do primeiro medicamento: </label>
+   <input type="text" name="medic1" autofocus> <br>
+
+   <label class="alinha"> Forneça o código do primeiro medicamento: </label>
+   <input type="text" name="cod1"> <br>
+
+   <label class="alinha"> Forneça o preço do primeiro medicamento:  </label>
+   <input type="number" min="0" max="10000" step="0.01" name="preco1" > <br>
+   <hr>
+
+   <label class="alinha"> Forneça o nome do segundo medicamento: </label>
+   <input type="text" name="medic2" > <br>
+
+   <label class="alinha"> Forneça o código do segundo medicamento: </label>
+   <input type="text" name="cod2"> <br>
+
+   <label class="alinha"> Forneça o preço do segundo medicamento:  </label>
+   <input type="number" min="0" max="10000" step="0.01" name="preco2" > <br>
+   <hr>
+
+   <label class="alinha"> Forneça o nome do terceiro medicamento: </label>
+   <input type="text" name="medic3" > <br>
+
+   <label class="alinha"> Forneça o código do terceiro medicamento: </label>
+   <input type="text" name="cod3"> <br>
+
+   <label class="alinha"> Forneça o preço do terceiro medicamento:  </label>
+   <input type="number" min="0" max="10000" step="0.01" name="preco3" > <br>
+   <hr>
+
+  </fieldset>
+
+  <fieldset>
+   <legend>Módulo de pesquisa do medicamento</legend>
+
+   <label class="alinha">Forneça o código do remédio pesquisado: </label>
+   <input type="text" name="pesquisa-codigo">
+  </fieldset>
+
+  <button>Criar, pesquisar e processar os dados da matriz </button>
+ </form> 
+</body>
+</html>
