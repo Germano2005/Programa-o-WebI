@@ -8,11 +8,59 @@
 <body>
     <h1 class="alinhar">Sistema de lavação de carro</h1>
 
-    <form action="../php/script.php">
-      <fieldset>
-        <legend class="alinhar">Formulário</legend>
-          <label></label>
+
+    <form method="post" action="../php/script.php">
+      <fieldset class="cor-fundo">
+        <legend class="alinhar cor-fundo">Formulário</legend>
+          <label class="title">CARRO 1</label>
+
+          <label class="cor-fundo">Chassi: </label>
+          <input type="text" name="chassi1" autofocus>
+
+          <label class="cor-fundo">Nome do fabricante: </label>
+          <input type="text" name="nome1">
+
+          <label class="cor-fundo">Preço da venda: </label>
+          <input type="number" min="0" max="50000" step="0.01" name="preco1">
+
+          <hr>
+          <label class="title">CARRO 2</label>
+
+          <label class="cor-fundo">Chassi:</label>
+          <input type="text" name="chassi2" autofocus>
+
+          <label class="cor-fundo">Nome do fabricante:</label>
+          <input type="text" name="nome2">
+
+          <label class="cor-fundo">Preço da venda:</label>
+          <input type="number" min="0" max="50000" step="0.01" name="preco2">
+
+          <hr>
+          <label class="title">CARRO 3</label>
+
+          <label class="cor-fundo">Chassi:</label>
+          <input type="text" name="chassi3" autofocus>
+
+          <label class="cor-fundo">Nome do fabricante:</label>
+          <input type="text" name="nome3">
+
+          <label class="cor-fundo">Preço da venda:</label>
+          <input type="number" min="0" max="50000" step="0.01" name="preco3">
+
+          <hr>
+          <label class="title">CARRO 4</label>
+
+          <label class="cor-fundo">Chassi:</label>
+          <input type="text" name="chassi4" autofocus>
+
+          <label class="cor-fundo">Nome do fabricante:</label>
+          <input type="text" name="nome4">
+
+          <label class="cor-fundo">Preço da venda:</label>
+          <input type="number" min="0" max="50000" step="0.01" name="preco4">
       </fieldset>
+
+        <button type="button">Registrar informações</button>
     </form>
 
 
