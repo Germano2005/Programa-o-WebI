@@ -33,7 +33,7 @@ $precoMedio = array_sum($vetorAux) / 4;
 
 
 //d) Ordene os dados da matriz em função do preço de cada carro, em ordem decrescente
-asort($vetorAux);
+arsort($vetorAux);
 
 echo "<table class='mscript'>
         <caption>Tabela dos dados dos veículos</caption>
