@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body{
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0a1118;
+    color: #93B1A6;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 3px solid #183D3D;
+}
+
+legend{
+    text-align: center;
+}
+
+
+fieldset{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    background-color: #183D3D;
+}
+
+button{
+    display: block;
+    margin: auto;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #5C8374;
+    margin-top: 20px;
+    cursor: pointer;
+}
+label{
+    font-size: 15px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 60px 1px 10px 60px;
+}
+
+span{
+    color: #9ccb2f;
+}
