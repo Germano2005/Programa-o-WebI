@@ -34,7 +34,7 @@
 function converteFahrenheit($temp){
     $converte = ($temp * (9/5)) + 32;
 
-    echo "<p>Dados da conversão termométrica: <br>
+    echo "<p class='centro'>Dados da conversão termométrica: <br>
             Temperatura em celsius = <span>$temp ºC</span>
             Temperatura Convertida para Fahreinheit = <span>$converte ºF</span></p>";
 }
@@ -43,9 +43,9 @@ function converteCelsius($temp)
 {
     $converte = ($temp - 32) * (5/9);
 
-    echo "<p>Dados da conversão termométrica: <br>
-            Temperatura em celsius = <span>$temp ºC</span>
-            Temperatura Convertida para Fahreinheit = <span>$converte ºF</span></p>";
+    echo "<p class='centro'>Dados da conversão termométrica: <br>
+            Temperatura em Fahreinheit = <span>$temp ºC</span>
+            Temperatura Convertida para celsius = <span>$converte ºF</span></p>";
 
 }
 

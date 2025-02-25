@@ -20,7 +20,7 @@ legend{
 
 fieldset{
     width: 50%;
-    height: 200px;
+    height: 250px;
     margin: auto;
     background-color: #183D3D;
 }
@@ -41,7 +41,7 @@ label{
     display: inline-block;
     width: 300px;
     text-align: center;
-    margin: 10px 1px 10px 60px;
+    margin: 20px 1px 10px 60px;
 }
 
 span{
